@@ -1,0 +1,2 @@
+[flake8]
+per-file-ignores = flask/__init__.py:F401
