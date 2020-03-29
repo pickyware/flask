@@ -14,8 +14,8 @@ __version__ = '1.1.dev'
 
 # utilities we import from Werkzeug and Jinja2 that are unused
 # in the module but are exported as public interface.
-from werkzeug.exceptions import abort
-from werkzeug.utils import redirect
+from werkzeug.exceptions import abort #noqa
+from werkzeug.utils import redirect #noqa
 from jinja2 import Markup, escape
 
 from .app import Flask, Request, Response
